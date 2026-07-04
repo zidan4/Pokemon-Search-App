@@ -7,7 +7,7 @@ document.getElementById("search-button").addEventListener("click", function() {
         return;
     }
 
-    const apiUrl = `https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/${searchQuery}`; 
+    const apiUrl = `https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/${searchQuery}`;
 
     fetch(apiUrl)
         .then(response => {
