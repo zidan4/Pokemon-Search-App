@@ -1,4 +1,4 @@
-# Pokemon-Search-App 
+# Pokemon-Search-App
 
 JavaScript Algorithms and Data Structures.
 
