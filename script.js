@@ -1,5 +1,5 @@
 
-document.getElementById("search-button").addEventListener("click", function() {
+document.getElementById("search-button").addEventListener("click", function() { 
     const searchQuery = document.getElementById("search-input").value.trim().toLowerCase();
 
     if (!searchQuery) {
