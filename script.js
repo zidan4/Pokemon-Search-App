@@ -22,7 +22,7 @@ document.getElementById("search-button").addEventListener("click", function() {
         .catch(error => {
             alert(error.message);
         });
-});
+}); 
 
 function updateUI(data) {
     document.getElementById("pokemon-name").textContent = data.name.toUpperCase();
